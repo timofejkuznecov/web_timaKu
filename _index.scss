@@ -1,0 +1,18 @@
+.page-footer {
+    // flex-shrink: 0;
+    // margin-top: 3rem;
+    margin-top: 3.5rem;
+
+    &__inner {
+        @extend %container;
+    }
+
+    &__content {
+        text-align: center;
+        color: var(--gray-c);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-top: 1px solid var(--border-hr);
+        font-size: 1.2rem;
+    }
+}
